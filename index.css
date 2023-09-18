@@ -1,0 +1,46 @@
+html{
+    background-color: darkkhaki;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 111px;
+    font-family: cursive;
+    color: rgb(3, 58, 58);
+}
+
+.containour {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.first {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    padding-top: 100px;
+}
+.second {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    padding-top: 100px;
+}
+.player {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#p1 {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    padding-top: 10px;
+    font-size: 42px;
+}
+#p2 {
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    padding-top: 10px;
+    font-size: 42px;
+}
